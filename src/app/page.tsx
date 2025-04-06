@@ -75,7 +75,7 @@ export default function Home() {
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-2">Join the waitlist for the</h1>
           <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent mb-8">
-            Muscle AI System!
+            Muscle AI!
           </h2>
           <p className="text-gray-400 mb-8">
             Be the first to experience the future of fitness technology.
