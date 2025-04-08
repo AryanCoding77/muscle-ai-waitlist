@@ -138,6 +138,23 @@ export default function Home() {
           Muscle AI is coming soon. We'll notify you when we're ready.
         </p>
       </div>
+
+      <div className="w-full max-w-4xl mt-12">
+        <video
+          controls
+          className="w-full rounded-lg shadow-xl"
+          preload="metadata"
+          controlsList="nodownload"
+          autoPlay={false}
+        >
+          <source
+            src="/video/Recording 2025-03-24 232004.mp4"
+            type="video/mp4"
+          />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
       <Toaster position="bottom-center" />
     </main>
   );
