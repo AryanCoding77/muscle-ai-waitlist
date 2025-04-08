@@ -68,8 +68,8 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-4">
-      <div className="max-w-md w-full space-y-8">
+    <main className="min-h-screen bg-black text-white flex flex-col items-center justify-start p-4 pt-24">
+      <div className="max-w-md w-full space-y-12 mx-auto mt-12">
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-2">Join the waitlist for the</h1>
           <h2 className="text-4xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent mb-8">
